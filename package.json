@@ -1,0 +1,24 @@
+{
+  "name": "todolist-api",
+  "version": "1.0.0",
+  "description": "Node server for creating \"To Do List\" entries and storing them on a PSQL server. For future use..",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qionghuang6/todolist-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qionghuang6/todolist-api/issues"
+  },
+  "homepage": "https://github.com/qionghuang6/todolist-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "pg": "^8.3.2"
+  }
+}
